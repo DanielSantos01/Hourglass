@@ -16,6 +16,9 @@ const inputValidator = (evt, byButton = false) => {
     return false;
   }
 
+  textInput.classList.remove('invalid');
+  textInput.classList.add('valid');
+  document.querySelector('.error').innerHTML = '';
   return Number(data);
 };
 
