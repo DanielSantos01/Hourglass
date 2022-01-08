@@ -1,0 +1,14 @@
+{
+  "name": "hourglass",
+  "version": "1.0.0",
+  "description": "hourglass generator app",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "css-loader": "^5.2.0",
+    "style-loader": "^2.0.0"
+  }
+}
