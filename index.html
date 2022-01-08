@@ -14,10 +14,28 @@
   <section class="container">
     <h1 class="Title">Hourglass Generator</h1>
     <div class="content">
+      <input type="text" class="input" placeholder="Insert a number greater than or equal 20" />
+
+      <p class="error"></p>
+
+      <div class="row">
+        <button type="button" class="btn generate">
+          <p>Generate</p>
+        </button>
+
+        <button type="button" class="btn rotate">
+          <p>Rotate</p>
+        </button>
+      </div>
+
     </div>
   </section>
 
-  <script src="./js/index.js"></script>
+  <div class="result">
+    <p class="hourglass"></p>
+  </div>
+
+  <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
